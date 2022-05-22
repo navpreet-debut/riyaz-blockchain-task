@@ -21,8 +21,11 @@ cd fabric-samples/test-network
 Run the following command to kill any active or stale docker containers and remove previously generated artifacts.
 
 ./network.sh down
+
 docker rm -f $(docker ps -aq)
+
 docker network prune
+
 docker volume prune
 
 Run the following command to start the test network: The createChannel command creates a channel named mychannel with two channel 
