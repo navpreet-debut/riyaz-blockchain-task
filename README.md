@@ -25,9 +25,11 @@ Run the following command to kill any active or stale docker containers and remo
 docker rm -f $(docker ps -aq)
 
 docker network prune
+
 (This command prompt you to enter yes/no so press y to continue)
 
 docker volume prune
+
 (This command prompt you to enter yes/no so press y to continue)
 
 Run the following command to start the test network: The createChannel command creates a channel named mychannel with two channel 
