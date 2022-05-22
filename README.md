@@ -1,5 +1,7 @@
 # riyaz-blockchain-task
 
+Navigate to features/development branch to find the student-chaincode and network file
+
 #=================================== Before you begin =================================================#
 Before you can run the test network, you need to clone the fabric-samples repository and download the Fabric images.
 
@@ -26,11 +28,11 @@ docker rm -f $(docker ps -aq)
 
 docker network prune
 
-(This command prompt you to enter yes/no so press y to continue)
+(Above command prompt you to enter yes/no so, press y to continue)
 
 docker volume prune
 
-(This command prompt you to enter yes/no so press y to continue)
+(Above command prompt you to enter yes/no so, press y to continue)
 
 Run the following command to start the test network: The createChannel command creates a channel named mychannel with two channel 
 members, Org1 and Org2.
